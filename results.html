@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Results</title>
+    </head>
+
+    <body>
+
+        <h1>Your information has been submitted successfully <span id="n">???</span>!</h1>
+
+        <p>Thank you for submitting your information. We will contact you shortly.<br></p>
+            <script>
+                // URL parameters
+                var url_string = window.location.search;
+                var params = new URLSearchParams(url_string);
+                var head = document.getElementById("n");
+               
+                var name = params.get("firstname");
+                n.innerHTML = name;
+                
+                var name = params.get("firstname");
+                n.innerHTML = name;
+            </script>
+
+    </body>
+</html>
